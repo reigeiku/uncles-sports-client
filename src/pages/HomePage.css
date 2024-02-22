@@ -1,0 +1,21 @@
+.filter-list {
+    margin: 20px 0;
+}
+
+.filter-list * {
+    margin: 0 15px;
+}
+
+.filter-list h3 {
+    font-size: 32px;
+    display: inline;
+    margin-right: 50px;
+}
+
+.filters {
+    border: none;
+    border-radius: 20px;
+    height: 20px;
+    width: 120px;
+    box-shadow: 0 0 4px #000;
+}
