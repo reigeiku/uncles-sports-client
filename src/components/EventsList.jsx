@@ -10,9 +10,8 @@ const EventsList = ({ events }) => {
     return (
         <div className="events-list">
         {events.map((event, index) => {
-
             return (
-                <Link key={event.name + index} className="event-card">
+                <Link key={event.name + index} className="event-card" to={`/events/${event.eventId}`}>
                     <div className="event-image">
                         <img src={event.image || logo} alt="event" />
                     </div>

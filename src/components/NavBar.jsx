@@ -1,4 +1,4 @@
-import "../styling/NavBar.css";
+import "./NavBar.css";
 import logo from "../the_uncles_sports_logo.png"
 import { Link } from "react-router-dom";
 
